@@ -24,3 +24,7 @@ Catering MID es una solución pensada para empresas de catering y sus clientes, 
 -Automatización de Pagos: Brinda opciones de pago seguro en la app, reduciendo el tiempo y la complejidad de los procesos administrativos.
 
 Catering MID es una solución integral que conecta a los clientes con empresas de catering, haciendo que la experiencia de organización de eventos sea sencilla, accesible y segura para ambas partes.
+
+# CateringMID
+
+
