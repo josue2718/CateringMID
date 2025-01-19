@@ -3,7 +3,7 @@
 # Descripción del Proyecto
 Catering MID es una solución pensada para empresas de catering y sus clientes, diseñada para facilitar la selección, reserva y pago de servicios de catering. Este proyecto cuenta con una aplicación nativa para clientes y una plataforma web para las empresas de catering, permitiendo una gestión centralizada y eficiente de todos los servicios, tanto de la aplicación como de clientes externos.
 
-# Funcionalidades para los Clientes (Aplicación Nativa)
+# Funcionalidades para los Clientes (Aplicación Movil)
 
 -Selección de Empresas de Catering: Los usuarios podrán explorar una lista de empresas de catering, visualizar su perfil y revisar su disponibilidad.
 -Personalización de Servicios: La aplicación permite a los clientes seleccionar platos, bebidas, horarios y otros detalles del servicio para adaptarlo a sus necesidades.
