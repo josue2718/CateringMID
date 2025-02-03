@@ -1,0 +1,33 @@
+.sidebar {
+    width: 80px;
+    height: 100vh;
+    background-color: #5b0f0f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+  
+  .sidebar .menu-item {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    transition: background 0.3s;
+  }
+  
+  .sidebar .menu-item:hover {
+    background-color: #811919;
+    cursor: pointer;
+  }
+  
+  .sidebar .icon {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .sidebar .logout {
+    margin-top: auto;
+    background-color: #c0392b;
+  }
+  
