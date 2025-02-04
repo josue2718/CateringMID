@@ -1,5 +1,7 @@
 // Sidebar.jsx
 import React from "react";
+
+import { logout } from "../api/auth";
 import "./Sidebar.css"; // Asegúrate de crear este archivo CSS
 
 const Sidebar = ({ onLogout }) => {
