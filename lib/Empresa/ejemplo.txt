@@ -1,0 +1,61 @@
+class CustomerCart extends StatelessWidget {
+  const CustomerCart({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Transform.scale(
+      scale: 1.0,
+      child: Material(
+        elevation: 4,
+        borderRadius: BorderRadius.circular(22),
+        color: Colors.white,
+        child: Padding(
+          padding: const EdgeInsets.symmetric(
+            horizontal: 12,
+            vertical: 24,
+          ),
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              ClipOval(
+                child: SizedBox(
+                  width: 46,
+                  height: 46,
+                  child: Image.network(
+                    'https://docs.flutter.dev/cookbook/img-files/effects/split-check/Avatar1.jpg',
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+              const SizedBox(height: 8),
+              Text(
+                'Juan Pérez',  // Nombre estático
+                style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                      color: Colors.black,
+                      fontWeight: FontWeight.bold,
+                    ),
+              ),
+              const SizedBox(height: 4),
+              Text(
+                '\$120.00',  // Precio estático
+                style: Theme.of(context).textTheme.bodySmall!.copyWith(
+                      color: Colors.black,
+                      fontSize: 16,
+                      fontWeight: FontWeight.bold,
+                    ),
+              ),
+              const SizedBox(height: 4),
+              Text(
+                '2 items',  // Número de artículos estático
+                style: Theme.of(context).textTheme.titleMedium!.copyWith(
+                      color: Colors.black,
+                      fontSize: 12,
+                    ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
